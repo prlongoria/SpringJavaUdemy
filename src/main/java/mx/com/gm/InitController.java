@@ -1,10 +1,10 @@
 package mx.com.gm;
-//Este es un controlador de tipo Rest
+//Este es un controlador de tipo Rest que es el más sencillo
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController //para que Spring reconozca a esta clase debo poner esta notación
+@RestController //para que Spring reconozca a esta clase debo poner esta notación, y porque es tipo Rest
 
 @Slf4j //para el manejo de logging
 
